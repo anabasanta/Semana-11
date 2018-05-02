@@ -1,0 +1,257 @@
+header {
+	padding: 0.1%;
+	text-align: center;
+	border-radius: 5%;
+}
+}
+nav{
+	background-color: rgba(4,4,5, 0.4);
+	color: gray;
+	padding: 0%;
+	padding-right:1%;
+
+}
+ul{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-left:25%;
+	margin-right: 25%;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+li {
+	display: flex;
+	font-size: 2em;
+	color: lightgray;
+	padding: 2%;
+	font-family: avenir;
+	font-weight: bold;
+}
+li:hover {
+	background-color: white;
+	}
+body {
+	max-width:1500px;
+	background: url(../img/papertexture.jpg) no-repeat;
+	width:100%;
+	height: 1000%;
+}
+h2 {
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.9em;
+	letter-spacing: 3px;
+	background-color: rgba(4,4,5, 0.3);
+	border-radius: 5%;
+	padding: 1.5%;
+	margin: 5%;
+}
+.row {
+	display:flex;
+	padding: 1%;
+}
+.column-1, .column-2 {
+    border: 5px solid black;
+    border-radius: 25px;
+	flex:1;
+	text-align: center;
+	padding: 2%;
+	margin: 2%;
+	border-radius: 5%;
+	box-shadow: 10px 15px;
+	background-color: rgba(228,229,230, 0.6);
+
+
+}
+img {
+	width: 100%;
+	border-radius: 10%;
+
+}
+p {
+	line-height: 180%;
+	text-align:justify;
+	color: white;
+	background-color: rgba(4,4,5, 0.2);
+	padding: 3%;
+	font-family: avenir;
+	width: 90%;
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+.img2 {
+	width: 100%;
+}
+.img3 {
+	width: 100%;
+}
+.img4 {
+	width: 100%;
+}
+
+.img5{
+	width: 100%;
+}
+.img6{
+	width: 95%;
+
+}
+.imgglobe {
+	width:80%;
+}
+.eventtitle {
+	font-size: 4.5em;
+	color: yellow;
+	font-weight: bold;
+	padding: 2%;
+	width: 80%;
+}
+
+
+.title1 {
+	justify-content: center;
+	font-size: 9em;
+	color: #F2F2F2;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 5%;
+	box-shadow: 10px 15px;
+	font-weight: bold;
+	margin-bottom: 0.2%;
+	margin-top: 3%;
+	padding: 1%
+}
+footer {
+	background-color: white;
+	color: gray;
+	padding: 0.5%;
+	justify-content: center;
+}
+/* Events*/
+
+.row1 {
+	display:flex;
+	padding: 1%;
+}
+.column-3, .column-4 {
+    border: 5px solid black;
+	flex:1;
+	text-align: center;
+	padding: 2%;
+	margin: 2%;
+	border-radius: 5%;
+	box-shadow: 10px 15px;
+	background-color:black;
+}
+.column3-event {
+    border: 5px solid black;
+	flex:1;
+	text-align: center;
+	background-color: black;
+	margin-top:3%;
+	margin:2%;
+	border-radius: 5%;
+}
+h1 {
+	font-size: 3em;
+	color:yellow;
+	font-family: ubuntu;
+	font-weight: bold;
+	margin-bottom: 3%;
+}
+.eventsh2 {color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.5em;
+	letter-spacing: 3px;
+	background-color: rgba(255,255,255, 0.8);
+	border-radius: 5%;
+	padding: 2.5%;
+	margin: 5%;
+	font-weight: bold;
+
+}
+.title1events {
+	justify-content: center;
+	font-size: 9em;
+	color: yellow;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 5%;
+	box-shadow: 10px 15px;
+	font-weight: bold;
+	margin-bottom: 0.2%;
+	background-color: black;
+	padding: 1.5%;
+	padding-top: 4%
+}
+.body1 {
+	max-width:1500px;
+	background: url(../img/papertexture.jpg) no-repeat;
+	width:100%;
+	height: 1000%;
+}
+
+.lievents {
+	display: flex;
+	font-size: 2em;
+	color: lightgray;
+	padding: 2%;
+	font-family: avenir;
+	font-weight: bold;
+}
+.lievents:hover {
+	background-color: black;
+	}
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(4,4,5, 0.5);
+	color: white;
+	font-family: avenir;
+}
+/* Artists*/
+.column-5, .column-6 {
+    border: 5px solid black;
+	flex:1;
+	text-align: center;
+	padding: 2%;
+	margin: 2%;
+	border-radius: 5%;
+	box-shadow: 10px 15px;
+	background-color:black;
+}
+
+.title1artists {
+	justify-content: center;
+	font-size: 9em;
+	color: pink;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 5%;
+	box-shadow: 10px 15px;
+	font-weight: bold;
+	margin-bottom: 0.2%;
+	background-color: black;
+	padding: 1.5%;
+	padding-top: 4%	
+}
+.artistsh2 {color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.5em;
+	letter-spacing: 3px;
+	border-radius: 5%;
+	padding: 2.5%;
+	margin: 5%;
+	font-weight: bold
+}
+.artists {
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2.9em;
+	letter-spacing: 3px;
+	background-color: rgba(4,4,5, 0.3);
+	border-radius: 5%;
+	padding: 1.5%;
+	margin: 5%;
+	font-weight: bold;
+}
